@@ -19,24 +19,28 @@
         <thead>
             <tr>
                 <th scope="col">#</th>
-                <th scope="col">Name</th>
-                <th scope="col">FuelСonsumption</th>
+                @foreach (var m in Model.Mechanisms)
+                {
+                    <th scope="col">
+                        @m.Name <br>
+                        @Html.TextBox(new Random().Next(1, 500).ToString(), null, new {@class = "form-control" })
+                </th>
+                }
             </tr>
         </thead>
         <tbody>
-            @foreach (var m in Model.Mechanisms)
+            @foreach (var m in Model.BuildingObjects)
             {
                 <tr>
-                    <th scope="row">@m.Id</th>
-                    <td>@m.Name</td>
-                    <td>@m.FuelСonsumption</td>
+                    <th scope="row">@m.Name <span>(@m.ContractNumber)</span></th>
+                    @foreach (var o in Model.Mechanisms)
+                    {
+                        <td>
+                            @Html.TextBox(new Random().Next(1, 500).ToString(), null, new { @class = "form-control" })
+                        </td>
+                    }
                 </tr>
             }
         </tbody>
-    </table>    
-    @foreach (var b in Model.BuildingObjects)
-    {
-        <p>@b.Name</p>
-        <p>@b.ContractNumber</p>
-    }
+    </table>
 </div>
