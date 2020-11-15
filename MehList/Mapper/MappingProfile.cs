@@ -16,6 +16,11 @@ namespace MehList.Mapper
                 .ForMember(dest =>
                 dest.FuelConsumption,
                 src => src.MapFrom(src => Double.Parse(src.FuelСonsumption)));
+
+            CreateMap<AddBuildingObjectVM, BuildingObject>();
+
+            CreateMap<Mechanism, MechanismVM>();
+            CreateMap<BuildingObject, BuildingObjectVM>();
         }
     }
 }

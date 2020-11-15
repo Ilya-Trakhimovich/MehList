@@ -25,8 +25,18 @@ namespace MehList.Controllers
         public IActionResult Index()
         {
             var mechanisms = _uow.MechanismRepository.GetItems().ToList();
+            var buildingObjects = _uow.BuildingObjectRepository.GetItems().ToList();
 
-            return View(mechanisms);
+            var mechanismsVM = _mapper.Map<List<Mechanism>, List<MechanismVM>>(mechanisms);
+            var buildingObjectsVM = _mapper.Map<List<BuildingObject>, List<BuildingObjectVM>>(buildingObjects);
+
+            var indexVM = new IndexVM()
+            {
+                Mechanisms = mechanismsVM,
+                BuildingObjects = buildingObjectsVM
+            };
+
+            return View(indexVM);
         }
 
         public IActionResult AddMechanism()

@@ -151,3 +151,5 @@ D:\VS\MehList\bin\Debug\netcoreapp3.1\AutoMapper.dll
 D:\VS\MehList\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 D:\VS\MehList\obj\Debug\netcoreapp3.1\MehList.csproj.CoreCompileInputs.cache
 D:\VS\MehList\obj\Debug\netcoreapp3.1\MehList.MvcApplicationPartsAssemblyInfo.cache
+D:\VS\MehList\obj\Debug\netcoreapp3.1\Razor\Views\BuildingObject\ObjectDetails.cshtml.g.cs
+D:\VS\MehList\obj\Debug\netcoreapp3.1\Razor\Views\BuildingObject\AddBuildingObject.cshtml.g.cs

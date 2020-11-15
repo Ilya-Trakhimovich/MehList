@@ -1,5 +1,5 @@
-﻿@using DAL.EF.Entities
-@model IEnumerable<Mechanism>
+﻿@using MehList.ViewModels
+@model IndexVM
 
 @{
     ViewData["Title"] = "Home Page";
@@ -12,7 +12,7 @@
             @Html.ActionLink("Add mechanism", "AddMechanism", "Mechanism", null, new { @class = "btn btn-success " })
         </div>
         <div class="col-md-6">
-            @Html.ActionLink("Add construction object", "AddConstructionObject", "Mechanism", null, new { @class = "btn btn-success" })
+            @Html.ActionLink("Add construction object", "AddBuildingObject", "BuildingObject", null, new { @class = "btn btn-success" })
         </div>
     </div>
     <table class="table">
@@ -24,15 +24,19 @@
             </tr>
         </thead>
         <tbody>
-            @foreach (var m in Model)
+            @foreach (var m in Model.Mechanisms)
             {
                 <tr>
                     <th scope="row">@m.Id</th>
                     <td>@m.Name</td>
-                    <td>@m.FuelConsumption</td>
+                    <td>@m.FuelСonsumption</td>
                 </tr>
             }
         </tbody>
-    </table>
+    </table>    
+    @foreach (var b in Model.BuildingObjects)
+    {
+        <p>@b.Name</p>
+        <p>@b.ContractNumber</p>
+    }
 </div>
-

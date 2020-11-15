@@ -19,12 +19,13 @@ namespace DAL.Concrete.Repositories
 
         public void Create(BuildingObject item)
         {
-            throw new NotImplementedException();
+            _context.BuildingObjects.Add(item);
+            _context.SaveChanges();
         }
 
         public IEnumerable<BuildingObject> GetItems()
         {
-            throw new NotImplementedException();
+            return _context.BuildingObjects.ToList();
         }
     }
 }
