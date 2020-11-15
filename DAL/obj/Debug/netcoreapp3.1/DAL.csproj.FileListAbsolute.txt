@@ -1,0 +1,8 @@
+D:\VS\DAL\bin\Debug\netcoreapp3.1\DAL.deps.json
+D:\VS\DAL\bin\Debug\netcoreapp3.1\DAL.dll
+D:\VS\DAL\obj\Debug\netcoreapp3.1\DAL.AssemblyInfoInputs.cache
+D:\VS\DAL\obj\Debug\netcoreapp3.1\DAL.AssemblyInfo.cs
+D:\VS\DAL\bin\Debug\netcoreapp3.1\DAL.pdb
+D:\VS\DAL\obj\Debug\netcoreapp3.1\DAL.csproj.CoreCompileInputs.cache
+D:\VS\DAL\obj\Debug\netcoreapp3.1\DAL.dll
+D:\VS\DAL\obj\Debug\netcoreapp3.1\DAL.pdb

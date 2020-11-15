@@ -1,0 +1,36 @@
+﻿@model MehList.ViewModels.AddMechanismVM
+
+@{
+    ViewData["Title"] = "AddMechanism";
+}
+
+<div class="container-fluid">
+    <h1>Add mechanism</h1>
+    <div class="row">
+        <div class="col-md-4">
+            <form asp-action="AddMechanism">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div class="form-group">
+                    <label asp-for="Name" class="control-label"></label>
+                    <input asp-for="Name" class="form-control" />
+                    <span asp-validation-for="Name" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="FuelСonsumption" class="control-label"></label>
+                    <input asp-for="FuelСonsumption" class="form-control" />
+                    <span asp-validation-for="FuelСonsumption" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <input type="submit" value="Create" class="btn btn-primary" />
+                </div>
+            </form>
+        </div>
+    </div>
+    <div>
+        <a asp-action="Index">Back to List</a>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

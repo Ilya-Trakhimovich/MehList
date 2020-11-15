@@ -1,0 +1,38 @@
+﻿@using DAL.EF.Entities
+@model IEnumerable<Mechanism>
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="container container-fluid">
+    <div class="row">
+        <div class="col-md-6">
+
+            @Html.ActionLink("Add mechanism", "AddMechanism", "Mechanism", null, new { @class = "btn btn-success " })
+        </div>
+        <div class="col-md-6">
+            @Html.ActionLink("Add construction object", "AddConstructionObject", "Mechanism", null, new { @class = "btn btn-success" })
+        </div>
+    </div>
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Name</th>
+                <th scope="col">FuelСonsumption</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var m in Model)
+            {
+                <tr>
+                    <th scope="row">@m.Id</th>
+                    <td>@m.Name</td>
+                    <td>@m.FuelConsumption</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
