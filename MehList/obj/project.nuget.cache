@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "pP1bmh7S1ZaAoEj/hpG7IhlwXfKOX+RgnB1Wi3EloCej6PdeZ9Dy2bN+vTpWnRMG8QJX3glZfMKiUVufE3wfWQ==",
+  "dgSpecHash": "/vjiTyFHw+nFwziwXl1bEYnmcztl6dCqq4gigvjxCOfRx5upQQ/Hni49M07qyEqhEnbRz8oLF4arhCKJH+0dJg==",
   "success": true,
-  "projectFilePath": "D:\\VS\\MehList\\MehList.csproj",
+  "projectFilePath": "D:\\VS\\TestGitRevert\\MehList\\MehList.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Lenovo\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\Lenovo\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.0\\automapper.extensions.microsoft.dependencyinjection.8.1.0.nupkg.sha512",
@@ -162,7 +162,8 @@
     "C:\\Users\\Lenovo\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\Lenovo\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Users\\Lenovo\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\Lenovo\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
+    "C:\\Users\\Lenovo\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512",
+    "C:\\Users\\Lenovo\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.13\\microsoft.netcore.app.host.win-x64.3.1.13.nupkg.sha512"
   ],
   "logs": []
 }

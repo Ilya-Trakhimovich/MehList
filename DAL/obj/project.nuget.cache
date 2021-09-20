@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "H8P0szgox7mDbWm2QLtxDO0Jt1pVJht3lYGYTraeqAuYr3BKJg8AwH/1n3kwmLFRNKgAUxy5yA7MGnW/nfZakw==",
+  "dgSpecHash": "tznqHI4FR8YXNerDAtCHQ/efz+OPMV9w9ikKvKkqvuuGLieX0Ah4VHoS2v1bR4s5JVTvEQ3R52TJ2lI8pj5uhg==",
   "success": true,
-  "projectFilePath": "D:\\VS\\DAL\\DAL.csproj",
+  "projectFilePath": "D:\\VS\\TestGitRevert\\DAL\\DAL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Lenovo\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\Lenovo\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.1\\microsoft.data.sqlclient.2.0.1.nupkg.sha512",

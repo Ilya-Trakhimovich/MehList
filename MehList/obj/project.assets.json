@@ -8893,11 +8893,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\VS\\MehList\\MehList.csproj",
+      "projectUniqueName": "D:\\VS\\TestGitRevert\\MehList\\MehList.csproj",
       "projectName": "MehList",
-      "projectPath": "D:\\VS\\MehList\\MehList.csproj",
+      "projectPath": "D:\\VS\\TestGitRevert\\MehList\\MehList.csproj",
       "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-      "outputPath": "D:\\VS\\MehList\\obj\\",
+      "outputPath": "D:\\VS\\TestGitRevert\\MehList\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -8912,9 +8912,10 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "D:\\VS\\DAL\\DAL.csproj": {
-              "projectPath": "D:\\VS\\DAL\\DAL.csproj"
+            "D:\\VS\\TestGitRevert\\DAL\\DAL.csproj": {
+              "projectPath": "D:\\VS\\TestGitRevert\\DAL\\DAL.csproj"
             }
           }
         }
@@ -8927,6 +8928,7 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
         "dependencies": {
           "AutoMapper": {
             "target": "Package",
@@ -8959,6 +8961,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[3.1.13, 3.1.13]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -8967,7 +8975,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
       }
     }
   }
