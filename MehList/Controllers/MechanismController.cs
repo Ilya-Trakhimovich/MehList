@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using Microsoft.AspNetCore.Mvc;
-using DAL.Abstract;
 using DAL.EF.Entities;
 using MehList.ViewModels;
 using AutoMapper;
