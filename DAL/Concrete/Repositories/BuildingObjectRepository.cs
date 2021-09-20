@@ -1,10 +1,8 @@
 ﻿using DAL.Abstract.IRepositories;
 using DAL.EF.EFContext;
 using DAL.EF.Entities;
-using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 
 namespace DAL.Concrete.Repositories
 {
